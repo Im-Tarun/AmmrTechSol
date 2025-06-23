@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import Carousel from '../../components/carousel';
+import Carousel from '../../components/Carousel';
 
 
 const ItemPage = () => {
