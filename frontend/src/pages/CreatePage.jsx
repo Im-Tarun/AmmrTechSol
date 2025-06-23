@@ -105,7 +105,7 @@ const CreatePage = () => {
               autoCapitalize="sentences"
               {...register("type", {
                 required: { value: true, message: "Type is required" },
-                minLength: { value: 4, message: " length should be greater than 4" },
+                minLength: { value: 3, message: " length should be greater than 3" },
                 maxLength: { value: 25, message: " length should be smaller than 25" },
               })}
               className="w-full  p-3 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -126,7 +126,7 @@ const CreatePage = () => {
               {...register("description", {
                 required: { value: true, message: "description is required" },
                 minLength: { value: 4, message: " length should be greater than 4" },
-                maxLength: { value: 25, message: " length should be smaller than 25" },
+                maxLength: { value: 100, message: " length should be smaller than 100" },
               })}
               className="w-full  p-3 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-500"
             />

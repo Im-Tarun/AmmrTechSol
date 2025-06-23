@@ -21,8 +21,8 @@ const ItemPage = () => {
 
 
     return (
-        <div className='w-[35%] px-4 py-6 flex items-center gap-2 justify-center flex-col m-auto border-2 border-amber-400'>
-            <div className=' overflow-x-auto whitespace-nowrap scrollbar-hide py-4 mt-20' >
+        <div className='w-[35%] px-4 py-6 flex items-center gap-3 justify-center flex-col mx-auto mt-20 bg-amber-100 rounded-lg '>
+            <div className=' overflow-x-auto whitespace-nowrap scrollbar-hide py-4 ' >
                 <Carousel images={images} />
             </div>
             <div>
