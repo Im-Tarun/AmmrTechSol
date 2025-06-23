@@ -8,7 +8,7 @@ const Footer = () => {
         
         <div class="md:mb-0">
             <h3 class="text-lg font-semibold">Contact Me</h3>
-            <p class="text-gray-300 mt-2">📞 +91 9876543210</p>
+            <p class="text-gray-300 mt-2">📞 +91 6393041195</p>
             <p class="text-gray-300">✉️ tarunyaduwanshi0@gmail.com</p>
         </div>
 
